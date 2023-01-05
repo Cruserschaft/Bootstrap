@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap</title>
+</head>
+<body>
+
+    <br>
+    <div class="container-fluid">
+        <h1>3 разных блока</h1>
+        <h3>всего 12 блоков - берем 12, ставим col-md-4</h3>
+        <div class="row">
+            <div class="col-md-4" style="background-color: #ffca2c">Left</div>
+            <div class="col-md-4" style="background-color: #99CCFF">Middle</div>
+            <div class="col-md-4" style="background-color: #00CC99">Right</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <h1>3 разных блока (на половину экрана)</h1>
+        <h3>всего 12 блоков - берем 6, ставим col-md-2</h3>
+        <div class="row">
+            <div class="col-md-2" style="background-color: #ffca2c">Left</div>
+            <div class="col-md-2" style="background-color: #99CCFF">Middle</div>
+            <div class="col-md-2" style="background-color: #00CC99">Right</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <h1>Блоки с постоянной шириной</h1>
+        <h3>xs - телефон</h3>
+        <h3>sm - планшет</h3>
+        <h3>md - моник</h3>
+        <h3>lg - широкий</h3>
+        <div class="row">
+            <div class="col-xs-12 col-sm-9 col-md-4 col-lg-6" style="background-color: #00CC99">Первый</div>
+            <div class="col-xs-12 col-sm-3 col-md-8 col-lg-6" style="background-color: #d63384">Второй</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <h1>Изменение ячеек</h1>
+        <h5>(не работает)</h5>
+        <div class="row">
+            <div class="col-lg-6" style="background-color: #0a58ca">
+                <h1>Первый</h1>
+                <h5>Также в побочном диве система сеток равна 12</h5>
+                <div class="row">
+                    <div class="col-lg-2" style="background-color: #d63384">Первый в первом</div>
+                    <div class="col-lg-2" style="background-color: #0dcaf0">Второй в первом</div>
+                </div>
+
+            </div>
+            <div class="col-lg-6" style="background-color: #ffca2c">Второй</div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
