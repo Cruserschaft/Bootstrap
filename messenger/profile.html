@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap</title>
+</head>
+<body class="grad_main">
+
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">OLINU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">Головна</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="messenger.html">Мої чати</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="profile.html">Профіль</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold">Вийти</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="profile mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 border rounded-5 bg-body" style="height: 702px">
+          <h3 class="text-center mt-3">Ласкаво просимо</h3>
+          <div class="m-lg-5">
+            <h4>Нікнейм ИМЯ</h4>
+            <h4 class="mt-5">
+              Фото профіля
+              <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#avatarModal">
+                <img src="img/circle.jfif" alt="автор" class="img-fluid person-image">
+              </button>
+              
+            </h4>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="avatarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Оберіть фото профіля</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-12 text-center avatar-scroll">
+              <a href=""><img src="img/avatar/1.png" alt="автор" class="img-fluid avatar-image"></a>
+              <a href=""><img src="img/avatar/2.png" alt="автор" class="img-fluid avatar-image"></a>
+              <a href=""><img src="img/avatar/3.png" alt="автор" class="img-fluid avatar-image"></a>
+              <a href=""><img src="img/avatar/4.png" alt="автор" class="img-fluid avatar-image"></a>
+              <a href=""><img src="img/avatar/5.png" alt="автор" class="img-fluid avatar-image"></a>
+              <a href=""><img src="img/avatar/6.png" alt="автор" class="img-fluid avatar-image"></a>
+              <a href=""><img src="img/avatar/7.png" alt="автор" class="img-fluid avatar-image"></a>
+              <a href=""><img src="img/avatar/8.png" alt="автор" class="img-fluid avatar-image"></a>
+            </div>
+            <form>
+              <div class="form-group mt-4">
+                <label for="exampleFormControlFile1"><h5>Або оберіть власне фото</h5></label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Відмінити</button>
+          <a href="messenger.html" class="btn btn-primary">Підтвердити</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

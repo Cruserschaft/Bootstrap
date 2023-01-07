@@ -1,0 +1,92 @@
+:root {
+    --color1: #5dccc8;
+    --color2: #3e4af2;
+}
+
+nav, .registration, .grad_main {
+    background: var(--color1);
+    background: -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%);
+    background: -webkit-linear-gradient(left,  var(--color1) 0%,var(--color2) 100%);
+    background: linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+/* Логін та реєстрація */
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--bs-primary);
+    margin: 15px auto 30px;
+}
+
+.captcha-image {
+    max-width: 260px;
+}
+
+.btn-max-w {
+    width: 200px;
+    height: 50px;
+}
+
+/* Чат */
+
+.chat-h {
+    background-color: #eee;
+}
+
+.person-image {
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.start-height {
+    height: 50px;
+}
+
+.end-height {
+    height: 100px;
+}
+
+.friends {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.ta-res-off {
+    resize: none;
+}
+
+.text-message {
+    color: white;
+}
+
+.text-me {
+    margin-left: 40%;
+}
+
+.text-person {
+    margin-right: 40%;
+}
+
+/* Профіль */
+
+.avatar-scroll {
+    overflow-y: scroll;
+}
+
+.avatar-image {
+    max-width: 100px;
+    border-radius: 50%;
+}
