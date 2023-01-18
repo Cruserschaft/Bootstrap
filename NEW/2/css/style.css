@@ -1,0 +1,53 @@
+
+html, body {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+.header-info {
+    background-color: aqua;
+    height: 100px;
+    text-align: center;
+}
+
+.header-menu {
+    background-color: rgb(80, 218, 109);
+    height: 50px;
+    text-align: center;
+}
+
+
+header h2 {
+    margin: 0;
+    align-items: center;
+}
+
+
+.main table {
+    width: 100%;
+    height: calc(100vh - 240px)
+    
+}
+
+
+
+.content {
+    width: 70%;
+    background-color: rgb(224, 184, 108);
+    
+
+}
+
+.widget {
+    background-color: chartreuse;
+}
+
+footer {
+    width: 100%;
+    background-color: coral;
+    height: 90px;
+}
