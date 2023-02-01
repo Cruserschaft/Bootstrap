@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        img {
+            transition: all 0.2s ease-in;
+            backface-visibility: hidden;
+            
+        }
+        img:hover {
+            /* transform: rotate(45deg); */
+            /* transform: rotate(1turn); */
+            /* transform: scale(2); */
+            /* transform: skew(22deg); Поворот*/
+            /* transform: translate(20px); Перемещение*/
+            transform: perspective(300px) rotateY(180deg);
+        }   
+    </style>
+
+</head>
+<body>
+    <img src="./image/2.jpg" alt="">
+    
+</body>
+</html>
